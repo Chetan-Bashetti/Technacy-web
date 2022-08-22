@@ -22,7 +22,7 @@ const Footer = () => {
 							<TextBox onChange={(e) => handleOnChange(e)} />
 							<div>
 								<a
-									href={`https://wa.me/+91${number}?text=Hi, Can you help me to build a website?`}
+									href={`https://wa.me/+919060003573?text=Hi, Team Tecnacy, please consider my number ${number} for the newsletter subscription though WhatsApp.`}
 									target='_blank'
 									text='Hello'
 									rel='noopener noreferrer'
