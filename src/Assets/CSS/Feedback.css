@@ -1,0 +1,32 @@
+.feedback-main-wrapper {
+	display: flex;
+	background: linear-gradient(to right, rgb(255 152 0), #5f7bef);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5em 0;
+	color: white;
+}
+
+.feedback-cards-container {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.feedback-cards-container {
+		flex-direction: column;
+	}
+	.feedback-title {
+		font-size: 2rem;
+		margin-bottom: 1.5em;
+	}
+}
+
+@media (min-width: 769px) {
+	.feedback-title {
+		font-size: 2.5rem;
+		flex: 1 1;
+		text-align: initial;
+		margin-bottom: 2.5em;
+	}
+}

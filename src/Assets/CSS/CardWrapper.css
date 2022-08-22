@@ -1,0 +1,17 @@
+.cards-main-wrapper {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	padding: 5em 0 5em 0;
+}
+
+.card-content-wrapper {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.card-content-wrapper {
+		flex-direction: column;
+	}
+}

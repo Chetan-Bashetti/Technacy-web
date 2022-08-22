@@ -1,0 +1,26 @@
+.button {
+	text-align: center;
+	font-family: 'Montserrat';
+	letter-spacing: 1px;
+	/* background: linear-gradient(
+		to right,
+		rgb(255 152 0 / 78%),
+		rgba(95, 123, 239, 0.9)
+	); */
+	background: rgba(95, 123, 239, 0.9);
+	padding-left: 30px;
+	padding: 1rem 2rem;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	cursor: pointer;
+	border-radius: 50px;
+	text-transform: uppercase;
+	-webkit-user-select: none;
+	user-select: none;
+	border: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	color: white;
+	font-weight: 600;
+	width: min-content;
+}

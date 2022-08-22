@@ -1,0 +1,28 @@
+.components-main-wrapper {
+	display: flex;
+	flex: 1;
+}
+
+@media (min-width: 576px) {
+	.components-main-wrapper {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.components-main-wrapper {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.components-main-wrapper {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.components-main-wrapper {
+		max-width: 1140px;
+	}
+}

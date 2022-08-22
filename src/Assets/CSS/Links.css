@@ -1,0 +1,28 @@
+.links-main-wrapper {
+	display: flex;
+}
+
+.each-link {
+	margin: 0px 10px 0px 10px;
+	cursor: pointer;
+}
+
+/* @media (min-width: 576px) {
+	.links-main-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.each-link {
+		margin: 10px 0px 10px 0px;
+	}
+} */
+
+/* @media (max-width: 768px) {
+	.links-main-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.each-link {
+		margin: 10px 0px 10px 0px;
+	}
+} */
