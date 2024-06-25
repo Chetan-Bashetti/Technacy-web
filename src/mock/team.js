@@ -76,7 +76,7 @@ export const team = [
 		]
 	},
 	{
-		name: 'Satweak S',
+		name: 'Satvik S',
 		gender: 'm',
 		desg: 'Front-end developer',
 		social: [

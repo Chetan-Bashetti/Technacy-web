@@ -2,7 +2,7 @@ export const pricing = [
 	{
 		title: 'basic',
 		sub_title: 'develop websites',
-		price: '2,999',
+		price: '2,999.00',
 		includes: [
 			'responsive web design',
 			'compatible to all deveices',
@@ -16,7 +16,7 @@ export const pricing = [
 	{
 		title: 'pro ',
 		sub_title: 'design & Develop websites',
-		price: '4,999',
+		price: '4,999.00',
 		includes: [
 			'a high level design for ideas',
 			'mobile app with same content as website',

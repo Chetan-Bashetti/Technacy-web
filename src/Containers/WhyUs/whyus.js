@@ -46,7 +46,7 @@ const WhyUs = () => {
 					<MuiButton title='Learn more' />
 				</div>
 				<div>
-					<AboutUsImg className='hero-image' />
+					<AboutUsImg className='hero-image hero-why-us' />
 				</div>
 			</div>
 		</div>

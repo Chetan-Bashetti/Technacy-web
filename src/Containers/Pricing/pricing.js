@@ -1,4 +1,5 @@
 import { pricing } from '../../mock/pricing';
+import MuiButton from '../../Components/Button/MuiButton';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 import './pricing.css';
@@ -36,6 +37,9 @@ const Pricing = () => {
 										</span>
 									</div>
 								))}
+							</div>
+							<div className='card-actions'>
+								<MuiButton title='Get started' />
 							</div>
 						</div>
 					))}

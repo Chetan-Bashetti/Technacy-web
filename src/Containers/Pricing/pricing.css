@@ -10,11 +10,12 @@
 .pricing-cards {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 	justify-content: center;
 }
 
 .pricing-card {
+	display: flex;
+	flex-direction: column;
 	width: 400px;
 	background: #ffffff;
 	border-radius: 5px;
@@ -28,9 +29,9 @@
 }
 
 .each-price-title {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	font-size: 1.7em;
-	font-weight: 500;
+	font-weight: 600;
 	color: var(--primary-bg);
 }
 
@@ -42,9 +43,9 @@
 
 .each-price {
 	font-size: 2.2em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	color: var(--primary-bg);
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .each-offer-text {
@@ -53,6 +54,14 @@
 
 .capatilized::first-letter {
 	text-transform: uppercase;
+}
+
+.card-actions {
+	display: flex;
+	flex: 1;
+	align-items: flex-end;
+	justify-content: center;
+	margin-top: 2em;
 }
 
 @media screen and (max-width: 799px) {

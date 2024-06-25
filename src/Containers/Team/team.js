@@ -14,7 +14,7 @@ const Team = () => {
 	};
 
 	return (
-		<div id='team'>
+		<div id='team' style={{ padding: '3em 0' }}>
 			<div className='titles'>Meet our team</div>
 			<div className='reviews-conent'>
 				{team?.map((eachMember) => (
@@ -30,8 +30,12 @@ const Team = () => {
 							<div className='user-name team-user'>{eachMember.name}</div>
 							<div className='member-desg'>{eachMember.desg}</div>
 							<div className='social-links'>
-								{eachMember.social.map((eachLink) => (
-									<a href={eachLink.link} className='each-social-link'>
+								{eachMember.social.map((eachLink, id) => (
+									<a
+										href={eachLink.link}
+										className='each-social-link'
+										key={eachLink.link + id}
+									>
 										{socialIcons[eachLink.key]}
 									</a>
 								))}
