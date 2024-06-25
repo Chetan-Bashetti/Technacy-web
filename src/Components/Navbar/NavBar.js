@@ -38,7 +38,7 @@ const NavBar = () => {
 	};
 
 	return (
-		<header style={{ boxShadow: 'none' }}>
+		<header>
 			<div className='logo'>
 				<img
 					src={require('../../Assets/Images/tecnacy.jpeg')}

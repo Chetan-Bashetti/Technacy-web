@@ -38,7 +38,7 @@ nav ul {
 
 nav ul li {
 	margin-right: 20px;
-	color: var(--primary-bg);
+	color: #585978;
 }
 
 .mobile-menu-icon {
@@ -70,6 +70,10 @@ nav ul li {
 .logo-img {
 	height: 60px;
 	width: 200px;
+}
+
+nav ul li:hover {
+	color: var(--primary-bg);
 }
 
 @media (max-width: 768px) {

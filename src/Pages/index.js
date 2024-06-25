@@ -3,20 +3,24 @@ import '../Assets/CSS/WebHome.css';
 
 // Components
 import Banner from '../Containers/Banner';
-import CardWrapper from '../Containers/CardWrapper';
 import Footer from '../Containers/Footer';
-// import Header from '../Containers/Header';
-import Feedback from '../Containers/Feedback';
 import NavBar from '../Components/Navbar/NavBar';
+import Services from '../Containers/Services/services';
+import WhyUs from '../Containers/WhyUs/whyus';
+import Reviews from '../Containers/Reviews/reviews';
+import Team from '../Containers/Team/team';
+import Pricing from '../Containers/Pricing/pricing';
 
 const WebHome = () => {
 	return (
 		<div className='web-main-wrapper'>
-			{/* <Header /> */}
 			<NavBar />
 			<Banner />
-			<CardWrapper />
-			<Feedback />
+			<Services />
+			<WhyUs />
+			<Team />
+			<Pricing />
+			<Reviews />
 			<Footer />
 		</div>
 	);

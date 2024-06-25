@@ -1,7 +1,6 @@
 .footer-main-wrapper {
 	display: flex;
 	flex: 1;
-	border: 1px solid rebeccapurple;
 	align-items: center;
 	justify-content: center;
 }
@@ -11,7 +10,7 @@
 	align-items: center;
 	justify-content: center;
 	flex: 1;
-	padding: 5em 0;
+	padding: 2em 0;
 }
 
 .highlighted-text {

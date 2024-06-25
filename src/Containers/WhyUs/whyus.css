@@ -1,0 +1,34 @@
+.why-us-content {
+	padding: 3em 7em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.why-us-text {
+	flex: 0.8;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+}
+
+.why-us-points {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: 2em 0;
+}
+
+.each-point {
+	margin: 0.5em 0;
+	display: flex;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 999px) {
+	.why-us-content {
+		padding: 3em 2em;
+		flex-direction: column;
+	}
+}
