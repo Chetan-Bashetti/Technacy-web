@@ -1,22 +1,18 @@
 .banner-main-wrapper {
 	display: flex;
 	flex: 1;
-	background-image: url(../Images/banner.jpeg);
+	background-image: url(../Images/hero-bg.svg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	color: black;
+	height: 860px;
 }
 .banner-br-wrapper {
 	display: flex;
-	color: white;
 	flex: 1;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(
-		to right,
-		rgb(255 152 0 / 78%),
-		rgba(95, 123, 239, 0.9)
-	);
 	padding: 100px 0px;
 }
 
@@ -25,6 +21,11 @@
 	flex: 1;
 	align-items: center;
 	margin-top: 3em;
+}
+
+.banner-sub-text {
+	line-height: 1.7;
+	margin: 2em 0;
 }
 
 @media (max-width: 768px) {
@@ -37,6 +38,38 @@
 	}
 	.banner-text {
 		font-size: 2rem;
+		font-weight: 800;
+	}
+
+	.banner-text-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5em;
+	}
+	.banner-sub-text {
+		text-align: center;
+		margin: 2em;
+	}
+	.hero-image {
+		margin-top: 4em;
+		width: 80%;
+		height: -webkit-fill-available;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.banner-content {
+		flex-direction: column;
+	}
+	.banner-user-img {
+		width: 350px;
+	}
+	.banner-text {
+		font-size: 2.5rem;
+		flex: 1;
+		text-align: center;
+		font-weight: 800;
 	}
 
 	.banner-text-wrapper {
@@ -44,41 +77,33 @@
 		flex-direction: column;
 		align-items: center;
 	}
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-	.banner-user-img {
-		width: 350px;
-	}
-	.banner-text {
-		font-size: 2.5rem;
-		flex: 1;
-		text-align: initial;
-	}
-
-	.banner-text-wrapper {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+	.hero-image {
+		margin-top: 2em;
+		width: 60%;
+		height: -webkit-fill-available;
 	}
 }
 
 @media (min-width: 1024px) {
-	.banner-user-img {
-		width: 480px;
-	}
 	.banner-text {
-		font-size: 2.5rem;
+		font-size: 3.5rem;
 		flex: 1;
+		text-align: initial;
+		font-weight: 800;
+	}
+	.banner-sub-text {
 		text-align: initial;
 	}
 	.banner-text-wrapper {
+		width: 500px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 	}
-}
-
-.banner-image {
-	flex: 1;
+	.hero-image {
+		width: 500px;
+	}
+	.banner-content {
+		justify-content: space-between;
+	}
 }

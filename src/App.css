@@ -1,3 +1,7 @@
+:root {
+	--primary-bg: #1f5ae3;
+	--secondary-color: black;
+}
 .App {
 	text-align: center;
 	width: 100%;

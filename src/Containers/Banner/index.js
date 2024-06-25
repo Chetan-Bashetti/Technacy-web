@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../Assets/CSS/Banner.css';
-import Button from '../../Components/Button';
+import MuiButton from '../../Components/Button/MuiButton';
 import ComponentsWrapper from '../../Components/ComponentsWrapper';
+import { ReactComponent as HeroIcon } from '../../Assets/Images/hero-img.svg';
 
 const Banner = () => {
 	return (
@@ -11,9 +12,13 @@ const Banner = () => {
 					children={
 						<div className='banner-content'>
 							<div className='banner-text-wrapper'>
-								<div className='banner-text'>
-									One stop solution for your business needs
+								<div className='banner-text'>Ready for any web projects</div>
+								<div className='banner-sub-text'>
+									We're a design studio that creates beautiful digital products,
+									brands and experiences for amazing companies and disruptive
+									startups.
 								</div>
+
 								<div style={{ marginTop: '1em' }}>
 									<a
 										href={`https://wa.me/+919060003573?text=Hi, Can you help me to build a website?`}
@@ -21,16 +26,12 @@ const Banner = () => {
 										text='Hello'
 										rel='noopener noreferrer'
 									>
-										<Button text='Contact' />
+										<MuiButton title='Contact' />
 									</a>
 								</div>
 							</div>
 							<div className='banner-image'>
-								<img
-									src={require('../../Assets/Images/banner-user.png')}
-									alt='banner-user'
-									className='banner-user-img'
-								/>
+								<HeroIcon className='hero-image' />
 							</div>
 						</div>
 					}

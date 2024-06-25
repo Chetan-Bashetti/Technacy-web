@@ -2,7 +2,7 @@ import React from 'react';
 import '../../Assets/CSS/Footer.css';
 import ComponentsWrapper from '../../Components/ComponentsWrapper';
 import TextBox from '../../Components/TextBox';
-import Button from '../../Components/Button';
+import MuiButton from '../../Components/Button/MuiButton';
 
 const Footer = () => {
 	const [number, setNumber] = React.useState('');
@@ -16,7 +16,7 @@ const Footer = () => {
 			<ComponentsWrapper
 				children={
 					<div className='footer-content-wrapper'>
-						<div className='footer-title'>Subscribe to Our Newsletter</div>
+						{/* <div className='footer-title'>Subscribe to Our Newsletter</div>
 						<div className='footer-sub-title'>To get latest updates</div>
 						<div className='footer-actions'>
 							<TextBox onChange={(e) => handleOnChange(e)} />
@@ -27,8 +27,8 @@ const Footer = () => {
 									text='Hello'
 									rel='noopener noreferrer'
 								>
-									<Button
-										text='Subscribe'
+									<MuiButton
+										title='Subscribe'
 										style={{
 											borderTopLeftRadius: 0,
 											borderBottomLeftRadius: 0
@@ -36,7 +36,7 @@ const Footer = () => {
 									/>
 								</a>
 							</div>
-						</div>
+						</div> */}
 						<div className='footer-credits'>
 							Designed by <div className='highlighted-text'>Tecnacy</div>
 						</div>
