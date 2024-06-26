@@ -10,6 +10,7 @@ import WhyUs from '../Containers/WhyUs/whyus';
 import Reviews from '../Containers/Reviews/reviews';
 import Team from '../Containers/Team/team';
 import Pricing from '../Containers/Pricing/pricing';
+import ContactUs from '../Containers/QueryForm/contactus';
 
 const WebHome = () => {
 	return (
@@ -21,6 +22,7 @@ const WebHome = () => {
 			<Team />
 			<Pricing />
 			<Reviews />
+			<ContactUs />
 			<Footer />
 		</div>
 	);

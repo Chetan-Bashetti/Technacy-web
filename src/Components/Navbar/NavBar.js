@@ -28,6 +28,11 @@ const NavBar = () => {
 			title: 'reviews',
 			id: '#reviews',
 			icon: <RateReviewOutlinedIcon />
+		},
+		{
+			title: 'contact us',
+			id: '#contact',
+			icon: <RateReviewOutlinedIcon />
 		}
 	];
 
