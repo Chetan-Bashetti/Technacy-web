@@ -6,6 +6,9 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import RateReviewOutlinedIcon from '@mui/icons-material/RateReviewOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
+import Diversity3Icon from '@mui/icons-material/Diversity3';
+import ContactsIcon from '@mui/icons-material/Contacts';
 
 import './Navbar.css';
 
@@ -17,12 +20,12 @@ const NavBar = () => {
 		{
 			title: 'team',
 			id: '#team',
-			icon: <RateReviewOutlinedIcon />
+			icon: <Diversity3Icon />
 		},
 		{
 			title: 'why us',
 			id: '#why-us',
-			icon: <RateReviewOutlinedIcon />
+			icon: <EmojiObjectsIcon />
 		},
 		{
 			title: 'reviews',
@@ -32,7 +35,7 @@ const NavBar = () => {
 		{
 			title: 'contact us',
 			id: '#contact',
-			icon: <RateReviewOutlinedIcon />
+			icon: <ContactsIcon />
 		}
 	];
 
@@ -70,7 +73,7 @@ const NavBar = () => {
 						<li key={id} onClick={toggleMenu}>
 							<a href={`${eachLink.id}`} className='links'>
 								{isMenuOpen ? <div className='icons'>{eachLink.icon}</div> : ''}
-								<div style={{ marginLeft: '4px', fontWeight: 600 }}>
+								<div style={{ marginLeft: '1em', fontWeight: 600 }}>
 									{eachLink.title}
 								</div>
 							</a>

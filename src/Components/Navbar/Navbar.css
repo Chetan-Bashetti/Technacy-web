@@ -76,7 +76,7 @@ nav ul li:hover {
 	color: var(--primary-bg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 999px) {
 	header {
 		padding: 10px 30px;
 	}
