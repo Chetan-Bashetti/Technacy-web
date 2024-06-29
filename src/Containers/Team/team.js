@@ -35,6 +35,8 @@ const Team = () => {
 										href={eachLink.link}
 										className='each-social-link'
 										key={eachLink.link + id}
+										target='_blank'
+										rel='noreferrer'
 									>
 										{socialIcons[eachLink.key]}
 									</a>
