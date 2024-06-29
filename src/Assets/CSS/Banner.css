@@ -28,6 +28,10 @@
 	margin: 2em 0;
 }
 
+.banner-text {
+	color: var(--primary-bg);
+}
+
 @media (max-width: 768px) {
 	.banner-content {
 		flex-direction: column;

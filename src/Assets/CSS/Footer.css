@@ -14,8 +14,9 @@
 }
 
 .highlighted-text {
-	color: #5f7bef;
-	margin-left: 0.5em;
+	color: var(--primary-bg);
+	margin-left: 0.3em;
+	font-weight: 600;
 }
 
 .footer-sub-title {
